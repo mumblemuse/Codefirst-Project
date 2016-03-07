@@ -11,7 +11,10 @@
       </style>
 
   </head>
-  <body>
+  <body bgcolor=#ddccff>
+    <header>
+       <h1> Project Name </h1>
+    </header>
   	<p>
   		Helllllllllo
   	</p>
