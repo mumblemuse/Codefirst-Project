@@ -2,7 +2,7 @@
 <html>
   <head>
      <title>Codefirst Project</title> 
-     <link rel="stylesheet" href="style.css" type="text/css" />
+     <link rel="stylesheet" href="style.css" />
      <style>
       body {
         text-align: center;
@@ -13,11 +13,13 @@
   </head>
   <body bgcolor=#ddccff>
     <header>
-       <h1> Project Name </h1>
-    </header>
-  	<p>
-  		Helllllllllo
-  	</p>
-
+       <header>
+       <h1>Josephine Butler Feminist Society</h1>
+       <ul>
+           <li><a href="#">Articles</a></li>
+           <li><a href="#">Events</a></li>
+           <li><a href="#">Discussions</a></li>
+       </ul>
+   </header>
   </body> 
 </html>
