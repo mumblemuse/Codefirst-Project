@@ -22,6 +22,7 @@
        ul {
             padding: 10px;
             background: black;
+
        }
        li{
             display: inline;
@@ -34,8 +35,8 @@
         margin: 0;
 
       }
-      header.main ul.other {
-        font:white;
+      header.main ul.other li a {
+        color:white;
       }
 
       article.topic {
@@ -50,11 +51,13 @@
 
       }
 
+
       article.link h1{
         font-size: 50px;
         text-align: center;
         padding: 100px;
       }
+
       article.link header img.articleimage {
           border-radius: 50%;
           display:inline;
@@ -66,9 +69,6 @@
 
         }
 
-      article.topic header div.topline {
-      
-      }
 
       article.topic header div.date {
         font-style: italic;
