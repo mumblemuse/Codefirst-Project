@@ -109,3 +109,7 @@ div.pages a {
     opacity: 0.5;
     }
 
+div.sliderframe{
+  width:700px;
+  padding-top:300px;
+}
