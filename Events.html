@@ -6,6 +6,16 @@
 
   </head>
   <body>
+
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <header class="main">
        <h1>Articles</h1>
        <ul>
@@ -14,5 +24,8 @@
            <li><a href="Discussion.html">Discussions</a></li>
        </ul>
    </header>
+
+   <div class="fb-like" data-href="https://www.facebook.com/groups/ButlerFemSoc/" data-width="100" data-layout="standard" data-action="like" data-show-faces="false" data-share="false"></div>
+   
   </body> 
 </html>
