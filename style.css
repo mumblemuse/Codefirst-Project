@@ -34,6 +34,9 @@
         margin: 0;
 
       }
+      header.main ul.other {
+        color:white;
+      }
 
       article.topic {
         padding: 20px 200px 20px 200px;
@@ -72,7 +75,9 @@
         article.topic p {
           padding: 20px;
       }
-
+ div.pages{
+  text-align: center;
+ }
 
 div.pages a {
     display: inline-block;
