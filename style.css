@@ -50,10 +50,11 @@
 
       }
 
-      article.link h1{
-        font-size: 50px;
+      article.link header h1{
+        font-size: 100px;
         text-align: center;
-        padding: 100px;
+        padding: 10px;
+        margin: 100px 0 0 0;
       }
       article.link header img.articleimage {
           border-radius: 50%;
@@ -61,9 +62,12 @@
           border: 5px solid black;
           width: 200px;
           height: 200px;
-          float: left;
-          margin: 10px;
+          margin: 0 0 10px 700px ;
 
+
+        }
+        article.link footer {
+          text-align: center;
         }
 
       article.topic header div.topline {
