@@ -55,6 +55,16 @@
         text-align: center;
         padding: 100px;
       }
+      article.link header img.articleimage {
+          border-radius: 50%;
+          display:inline;
+          border: 5px solid black;
+          width: 200px;
+          height: 200px;
+          float: left;
+          margin: 10px;
+
+        }
 
       article.topic header div.topline {
       
