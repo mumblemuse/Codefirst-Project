@@ -35,7 +35,7 @@
 
       }
       header.main ul.other {
-        color:white;
+        font:white;
       }
 
       article.topic {
@@ -48,6 +48,12 @@
         text-align: center;
         padding: 0;
 
+      }
+
+      article.link h1{
+        font-size: 50px;
+        text-align: center;
+        padding: 100px;
       }
 
       article.topic header div.topline {
@@ -90,5 +96,6 @@ div.pages a {
     font-size: 50px;
     border:5px solid black;
     margin: 0px 40px 0px 40px;
+    opacity: 0.5;
     }
 
