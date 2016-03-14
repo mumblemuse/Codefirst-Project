@@ -34,16 +34,23 @@
 
 
 <div class="pages">
-<script>
-$(document).mouseover(function(){
-  $("a").fadeIn();
-});
-</script>
+
 
 <a href="Articles.html" style="background:purple">Articles</a>
 <a href="Events.html" style="background: white">Events</a>
 <a href="Discussion.html" style="background: green">Discussions</a>
 </div>
+
+<script>
+$(document).ready(function() {
+  $('div.pages a').hover(function(){
+    $(this).fadeTo('fast', 1);
+  }, function() {
+    $(this).fadeTo('fast', 0.5);
+  })
+}); 
+<!--tried to add some jquery but could not quite get it to work -->
+</script>
 
   
   </body> 
