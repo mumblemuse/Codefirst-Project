@@ -22,6 +22,7 @@
        ul {
             padding: 10px;
             background: black;
+
        }
        li{
             display: inline;
@@ -34,8 +35,8 @@
         margin: 0;
 
       }
-      header.main ul.other {
-        font:white;
+      header.main ul.other li a {
+        color:white;
       }
 
       article.topic {
@@ -52,17 +53,23 @@
 
       article.link header h1{
         font-size: 100px;
+
+}
+      article.link h1{
+        font-size: 50px;
+
         text-align: center;
         padding: 10px;
         margin: 100px 0 0 0;
       }
+
       article.link header img.articleimage {
           border-radius: 50%;
           display:inline;
           border: 5px solid black;
           width: 200px;
           height: 200px;
-          margin: 0 0 10px 700px ;
+          margin: 0 0 10px 580px ;
 
 
         }
@@ -70,9 +77,6 @@
           text-align: center;
         }
 
-      article.topic header div.topline {
-      
-      }
 
       article.topic header div.date {
         font-style: italic;
