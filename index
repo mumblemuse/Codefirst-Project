@@ -16,9 +16,9 @@
        <header>
        <h1>Josephine Butler Feminist Society</h1>
        <ul>
-           <li><a href="#">Articles</a></li>
-           <li><a href="#">Events</a></li>
-           <li><a href="#">Discussions</a></li>
+           <li><a href="Articles.html">Articles</a></li>
+           <li><a href="Events.html">Events</a></li>
+           <li><a href="Discussions.html">Discussions</a></li>
        </ul>
    </header>
   </body> 
